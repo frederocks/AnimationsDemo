@@ -67,6 +67,7 @@ public class MainActivity extends ListActivity {
                 new Sample(R.string.title_zoom, ZoomActivity.class),
                 new Sample(R.string.title_layout_changes, LayoutChangesActivity.class),
                 new Sample(R.string.card_activity, cardActivity.class),
+                new Sample(R.string.camera_activity, CameraActivity.class),
         };
 
         setListAdapter(new ArrayAdapter<Sample>(this,

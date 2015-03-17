@@ -58,32 +58,44 @@ public final class R {
         public static final int thumb2=0x7f020017;
     }
     public static final class id {
-        public static final int action_add_item=0x7f060018;
+        public static final int action_add_item=0x7f060020;
         public static final int action_flip=0x7f060000;
         public static final int action_next=0x7f060001;
-        public static final int action_previous=0x7f060019;
-        public static final int action_toggle=0x7f060017;
-        public static final int btn_sep_1=0x7f060015;
-        public static final int btn_sep_2=0x7f060016;
+        public static final int action_previous=0x7f060021;
+        public static final int action_toggle=0x7f06001f;
+        public static final int btn_sep_1=0x7f06001d;
+        public static final int btn_sep_2=0x7f06001e;
+        public static final int cameraPreview=0x7f06000d;
         public static final int container=0x7f060004;
-        public static final int content=0x7f06000a;
-        public static final int delete_button=0x7f06000b;
-        public static final int description=0x7f060013;
+        public static final int content=0x7f06000b;
+        public static final int delete_button=0x7f06000c;
+        public static final int description=0x7f06001b;
         public static final int disordered=0x7f060002;
-        public static final int divider_bottom=0x7f060011;
-        public static final int divider_title=0x7f06000f;
+        public static final int divider_bottom=0x7f060019;
+        public static final int divider_title=0x7f060017;
         public static final int expanded_image=0x7f060009;
-        public static final int global_container=0x7f06000d;
-        public static final int image=0x7f060010;
-        public static final int image_1=0x7f060012;
-        public static final int image_2=0x7f060014;
-        public static final int layoutview=0x7f06000c;
+        public static final int global_container=0x7f060015;
+        public static final int image=0x7f060018;
+        public static final int imageView=0x7f06000a;
+        public static final int image_1=0x7f06001a;
+        public static final int image_2=0x7f06001c;
+        public static final int layoutview=0x7f060014;
         public static final int loading_spinner=0x7f060005;
+        public static final int menuCloseCamera=0x7f060024;
+        public static final int menuExit=0x7f060025;
+        public static final int menuOpenBackCamera=0x7f060022;
+        public static final int menuOpenFrontCamera=0x7f060023;
         public static final int ordered=0x7f060003;
         public static final int pager=0x7f060006;
+        public static final int selectPictureSizeButton=0x7f06000e;
+        public static final int selectedPictureSizeTextView=0x7f06000f;
+        public static final int takePictureButton=0x7f060010;
         public static final int thumb_button_1=0x7f060007;
         public static final int thumb_button_2=0x7f060008;
-        public static final int title=0x7f06000e;
+        public static final int title=0x7f060016;
+        public static final int zoomControls=0x7f060011;
+        public static final int zoomMaxButton=0x7f060013;
+        public static final int zoomMinButton=0x7f060012;
     }
     public static final class integer {
         public static final int card_flip_time_full=0x7f070000;
@@ -96,18 +108,21 @@ public final class R {
         public static final int activity_main=0x7f030003;
         public static final int activity_screen_slide=0x7f030004;
         public static final int activity_zoom=0x7f030005;
-        public static final int excerpt_content=0x7f030006;
-        public static final int fragment_card_back=0x7f030007;
-        public static final int fragment_card_front=0x7f030008;
-        public static final int fragment_screen_slide_page=0x7f030009;
-        public static final int list_item_example=0x7f03000a;
-        public static final int mainlayout=0x7f03000b;
-        public static final int std_card_inner=0x7f03000c;
+        public static final int camera_main=0x7f030006;
+        public static final int excerpt_content=0x7f030007;
+        public static final int fragment_card_back=0x7f030008;
+        public static final int fragment_card_front=0x7f030009;
+        public static final int fragment_screen_slide_page=0x7f03000a;
+        public static final int list_item_example=0x7f03000b;
+        public static final int main=0x7f03000c;
+        public static final int mainlayout=0x7f03000d;
+        public static final int std_card_inner=0x7f03000e;
     }
     public static final class menu {
         public static final int activity_crossfade=0x7f0a0000;
         public static final int activity_layout_changes=0x7f0a0001;
         public static final int activity_screen_slide=0x7f0a0002;
+        public static final int camera_menu=0x7f0a0003;
     }
     public static final class string {
         public static final int action_add_item=0x7f080000;
@@ -119,21 +134,22 @@ public final class R {
         public static final int action_remove_item=0x7f080006;
         public static final int action_toggle=0x7f080007;
         public static final int app_name=0x7f080008;
-        public static final int card_activity=0x7f080009;
-        public static final int card_back_description=0x7f08000a;
-        public static final int card_back_title=0x7f08000b;
-        public static final int description_image_1=0x7f08000c;
-        public static final int description_image_2=0x7f08000d;
-        public static final int description_zoom_touch_close=0x7f08000e;
-        public static final int lorem_ipsum=0x7f08000f;
-        public static final int message_empty_layout_changes=0x7f080010;
-        public static final int message_zoom_touch_expand=0x7f080011;
-        public static final int title_card_flip=0x7f080012;
-        public static final int title_crossfade=0x7f080013;
-        public static final int title_layout_changes=0x7f080014;
-        public static final int title_screen_slide=0x7f080015;
-        public static final int title_template_step=0x7f080016;
-        public static final int title_zoom=0x7f080017;
+        public static final int camera_activity=0x7f080009;
+        public static final int card_activity=0x7f08000a;
+        public static final int card_back_description=0x7f08000b;
+        public static final int card_back_title=0x7f08000c;
+        public static final int description_image_1=0x7f08000d;
+        public static final int description_image_2=0x7f08000e;
+        public static final int description_zoom_touch_close=0x7f08000f;
+        public static final int lorem_ipsum=0x7f080010;
+        public static final int message_empty_layout_changes=0x7f080011;
+        public static final int message_zoom_touch_expand=0x7f080012;
+        public static final int title_card_flip=0x7f080013;
+        public static final int title_crossfade=0x7f080014;
+        public static final int title_layout_changes=0x7f080015;
+        public static final int title_screen_slide=0x7f080016;
+        public static final int title_template_step=0x7f080017;
+        public static final int title_zoom=0x7f080018;
     }
     public static final class style {
         public static final int DarkActionBar=0x7f090000;
