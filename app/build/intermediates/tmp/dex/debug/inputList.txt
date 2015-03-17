@@ -1,0 +1,2 @@
+C:\Users\lfredericks\Desktop\AnimationsDemo\app\build\intermediates\classes\debug
+C:\Users\lfredericks\Desktop\AnimationsDemo\app\build\intermediates\pre-dexed\debug\android-support-v13-7e0a3c97d3b1c6a8e4ebbe34566a9696e2f2830e.jar
