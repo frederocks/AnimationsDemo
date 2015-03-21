@@ -28,7 +28,9 @@ import android.widget.ListView;
  * The launchpad activity for this sample project. This activity launches other activities that
  * demonstrate implementations of common animations.
  */
+
 public class MainActivity extends ListActivity {
+
     /**
      * This class describes an individual sample (the sample title, and the activity class that
      * demonstrates this sample).
