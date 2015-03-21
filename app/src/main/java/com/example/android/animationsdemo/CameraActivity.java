@@ -212,6 +212,7 @@ public class CameraActivity extends Activity
         releaseSelectedCamera();
         if(_selectedCameraId != CAMERA_ID_NOT_SET) {
             try {
+
                 _selectedCamera = Camera.open(_selectedCameraId);
                 //message = String.format("Opened Camera ID: %d", _selectedCameraId);
 
@@ -236,6 +237,7 @@ public class CameraActivity extends Activity
                 if (_isSmoothZoomSupported)
                     _selectedCamera.setZoomChangeListener((Camera.OnZoomChangeListener) this);
 
+
             } catch (Exception ex) {
                 message = "Unable to open camera: " + ex.getMessage();
                 Log.e(LOG_TAG, message);
@@ -246,6 +248,12 @@ public class CameraActivity extends Activity
         }
 
         if(message != null)
+
+
+
+
+
+            
             Toast.makeText(this, message, Toast.LENGTH_LONG).show();
     }
 
